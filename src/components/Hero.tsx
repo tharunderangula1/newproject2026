@@ -135,11 +135,12 @@ export default function Hero() {
           {/* CTAs */}
           <motion.div
             variants={item}
-            className="mt-8 w-full flex flex-col gap-5 sm:w-auto sm:flex-row sm:gap-4"
+            className="mt-8 w-full flex flex-col items-center gap-5 sm:w-auto sm:flex-row sm:gap-4 sm:items-start"
           >
             <a
               href="#experience"
-              className="neo-border bg-electric px-4 py-2 text-xs sm:px-8 sm:py-4 sm:text-base font-display font-bold text-white neo-shadow transition-all hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
+              className="mx-auto neo-border bg-electric px-4 py-2 text-xs sm:px-8 sm:py-4 sm:text-base font-display font-bold text-white neo-shadow transition-all hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
+              aria-label="View my work"
             >
               View My Work &darr;
             </a>
@@ -147,7 +148,7 @@ export default function Hero() {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="neo-border bg-white px-4 py-2 text-xs sm:px-8 sm:py-4 sm:text-base font-display font-bold text-black neo-shadow transition-all hover:bg-yellow hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
+              className="mx-auto neo-border bg-white px-4 py-2 text-xs sm:px-8 sm:py-4 sm:text-base font-display font-bold text-black neo-shadow transition-all hover:bg-yellow hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
             >
               Download Resume
             </a>
