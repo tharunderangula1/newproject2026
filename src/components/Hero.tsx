@@ -151,7 +151,7 @@ export default function Hero() {
           >
             <a
               href="#experience"
-              className="mx-auto neo-border bg-electric px-6 py-3 text-sm sm:px-8 sm:py-4 sm:text-base font-display font-bold text-white neo-shadow transition-all hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
+              className="mx-auto neo-border bg-electric px-10 py-5 text-lg sm:px-8 sm:py-4 sm:text-base font-display font-bold text-white neo-shadow transition-all hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
               aria-label="View my work"
             >
               View My Work &darr;
@@ -160,7 +160,7 @@ export default function Hero() {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-auto neo-border bg-white px-6 py-3 text-sm sm:px-8 sm:py-4 sm:text-base font-display font-bold text-black neo-shadow transition-all hover:bg-yellow hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
+              className="mx-auto neo-border bg-white px-10 py-5 text-lg sm:px-8 sm:py-4 sm:text-base font-display font-bold text-black neo-shadow transition-all hover:bg-yellow hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
             >
               Download Resume
             </a>
