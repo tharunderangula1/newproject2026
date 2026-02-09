@@ -26,6 +26,18 @@ export default function Hero() {
         className="relative z-10 mx-auto flex max-w-6xl flex-col items-center gap-8 pb-20 sm:gap-12 lg:flex-row lg:items-center lg:gap-16 lg:pb-0"
       >
         {/* Left — Profile pic: organic circle blob with curvy edges */}
+        {/* Mobile-only badge above the profile pic */}
+        <motion.div variants={item} className="sm:hidden mb-4">
+          <div className="neo-border-2 bg-lime px-4 py-2 neo-shadow-sm text-center">
+            <span className="flex items-center justify-center gap-2">
+              <span className="inline-block h-2.5 w-2.5 rounded-full bg-black animate-pulse-dot" />
+              <span className="font-mono text-xs font-bold uppercase tracking-wider text-black">
+                Available for Opportunities
+              </span>
+            </span>
+          </div>
+        </motion.div>
+
         <motion.div
           variants={item}
           className="flex-shrink-0"
@@ -71,7 +83,7 @@ export default function Hero() {
           {/* Badge */}
           <motion.div
             variants={item}
-            className="mb-6 neo-border-2 bg-lime px-4 py-2 neo-shadow-sm"
+            className="hidden sm:block mb-6 neo-border-2 bg-lime px-4 py-2 neo-shadow-sm"
           >
             <span className="flex items-center gap-2">
               <span className="inline-block h-2.5 w-2.5 rounded-full bg-black animate-pulse-dot" />
@@ -139,7 +151,7 @@ export default function Hero() {
           >
             <a
               href="#experience"
-              className="mx-auto neo-border bg-electric px-4 py-2 text-xs sm:px-8 sm:py-4 sm:text-base font-display font-bold text-white neo-shadow transition-all hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
+              className="mx-auto neo-border bg-electric px-6 py-3 text-sm sm:px-8 sm:py-4 sm:text-base font-display font-bold text-white neo-shadow transition-all hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
               aria-label="View my work"
             >
               View My Work &darr;
@@ -148,7 +160,7 @@ export default function Hero() {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-auto neo-border bg-white px-4 py-2 text-xs sm:px-8 sm:py-4 sm:text-base font-display font-bold text-black neo-shadow transition-all hover:bg-yellow hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
+              className="mx-auto neo-border bg-white px-6 py-3 text-sm sm:px-8 sm:py-4 sm:text-base font-display font-bold text-black neo-shadow transition-all hover:bg-yellow hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
             >
               Download Resume
             </a>
