@@ -110,7 +110,7 @@ export default function Hero() {
           {/* Subtitle + Location */}
           <motion.div variants={item} className="mt-6 flex flex-wrap items-center gap-3">
             <span className="neo-border-2 bg-yellow px-4 py-2 font-display text-base font-bold text-black neo-shadow-sm">
-              Senior Full Stack Engineer
+              SWE
             </span>
             <span className="neo-border-2 bg-white px-4 py-2 font-mono text-sm text-black neo-shadow-sm">
               @ HubSpot

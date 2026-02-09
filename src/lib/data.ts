@@ -76,12 +76,12 @@ export const navItems: NavItem[] = [
 export const socialLinks: SocialLink[] = [
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/tharunderangula",
+    href: "https://www.linkedin.com/in/dtharun/",
     icon: FaLinkedinIn,
   },
   {
     label: "GitHub",
-    href: "https://github.com/tharunderangula",
+    href: "https://github.com/tharunderangula1",
     icon: FaGithub,
   },
   {
@@ -264,7 +264,7 @@ export const education: Education[] = [
     degree: "BS Computer Science & Engineering",
     university: "Lovely Professional University",
     gpa: "3.7 / 4.0",
-    period: "2015 – 2019",
+    period: "2018 – 2022",
   },
 ];
 
