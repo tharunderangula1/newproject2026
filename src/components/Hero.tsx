@@ -27,7 +27,7 @@ export default function Hero() {
       >
         {/* Left — Profile pic: organic circle blob with curvy edges */}
         {/* Mobile-only badge above the profile pic */}
-        <motion.div variants={item} className="sm:hidden mb-4">
+        <motion.div variants={item} className="sm:hidden mt-6 mb-4">
           <div className="neo-border-2 bg-lime px-4 py-2 neo-shadow-sm text-center">
             <span className="flex items-center justify-center gap-2">
               <span className="inline-block h-2.5 w-2.5 rounded-full bg-black animate-pulse-dot" />
