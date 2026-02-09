@@ -23,7 +23,7 @@ export default function Hero() {
         variants={container}
         initial="hidden"
         animate="show"
-        className="relative z-10 mx-auto flex max-w-6xl flex-col items-center gap-12 lg:flex-row lg:items-center lg:gap-16"
+        className="relative z-10 mx-auto flex max-w-6xl flex-col items-center gap-8 pb-20 sm:gap-12 lg:flex-row lg:items-center lg:gap-16 lg:pb-0"
       >
         {/* Left — Profile pic: organic circle blob with curvy edges */}
         <motion.div
@@ -39,7 +39,7 @@ export default function Hero() {
             </defs>
           </svg>
 
-          <div className="relative h-[220px] w-[220px] sm:h-[310px] sm:w-[310px] md:h-[350px] md:w-[350px]">
+          <div className="relative h-[160px] w-[160px] sm:h-[220px] sm:w-[220px] md:h-[310px] md:w-[310px] lg:h-[350px] lg:w-[350px]">
             {/* Decorative offset blob shadow */}
             <div
               className="absolute inset-0 translate-x-[8px] translate-y-[8px] bg-electric"
@@ -67,7 +67,7 @@ export default function Hero() {
         </motion.div>
 
         {/* Right — Content */}
-        <div className="flex flex-col items-start text-left">
+        <div className="w-full flex flex-col items-center text-center sm:items-start sm:text-left sm:w-auto">
           {/* Badge */}
           <motion.div
             variants={item}
@@ -135,12 +135,11 @@ export default function Hero() {
           {/* CTAs */}
           <motion.div
             variants={item}
-            className="mt-8 flex flex-col gap-4 items-center sm:flex-row sm:items-start"
+            className="mt-8 w-full flex flex-col gap-5 sm:w-auto sm:flex-row sm:gap-4"
           >
             <a
               href="#experience"
-              className="mx-auto sm:mx-0 min-w-[220px] neo-border bg-electric px-8 py-4 font-display text-base font-bold text-white neo-shadow transition-all hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
-              aria-label="View my work"
+              className="neo-border bg-electric px-4 py-2 text-xs sm:px-8 sm:py-4 sm:text-base font-display font-bold text-white neo-shadow transition-all hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
             >
               View My Work &darr;
             </a>
@@ -148,8 +147,7 @@ export default function Hero() {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-auto sm:mx-0 min-w-[220px] neo-border bg-white px-8 py-4 font-display text-base font-bold text-black neo-shadow transition-all hover:bg-yellow hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
-              aria-label="Download resume"
+              className="neo-border bg-white px-4 py-2 text-xs sm:px-8 sm:py-4 sm:text-base font-display font-bold text-black neo-shadow transition-all hover:bg-yellow hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_#1A1A1A]"
             >
               Download Resume
             </a>
@@ -158,7 +156,7 @@ export default function Hero() {
       </motion.div>
 
       {/* Scroll indicator */}
-      <div className="hidden md:block absolute bottom-8 left-1/2 z-10 -translate-x-1/2">
+      <div className="absolute bottom-4 left-1/2 z-10 -translate-x-1/2 sm:bottom-8">
         <div className="neo-border-2 bg-white p-2">
           <HiChevronDown className="text-xl text-black animate-scroll-hint" />
         </div>
