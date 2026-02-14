@@ -7,21 +7,21 @@ const highlights = [
     emoji: "01",
     title: "FULL_STACK",
     description:
-      "End-to-end ownership from database design to pixel-perfect UIs across React, Angular, and Spring Boot.",
+      "End-to-end ownership from API and data modeling to polished React and Next.js user experiences.",
     color: "bg-yellow",
   },
   {
     emoji: "02",
-    title: "CLOUD_&_DEVOPS",
+    title: "CLOUD_&_SCALE",
     description:
-      "AWS & Azure certified. Kubernetes orchestration, CI/CD pipelines, and infrastructure as code.",
+      "Production systems on AWS with Kubernetes, Terraform, and CI/CD pipelines tuned for reliability and speed.",
     color: "bg-lime",
   },
   {
     emoji: "03",
-    title: "LEADERSHIP",
+    title: "AI_ENGINEERING",
     description:
-      "Mentoring engineers, leading code reviews, and driving architectural decisions across cross-functional teams.",
+      "Hands-on LLM integration, RAG workflows, and prompt engineering for practical, measurable product outcomes.",
     color: "bg-cyan",
   },
 ];
@@ -70,12 +70,12 @@ export default function About() {
             className="space-y-8 lg:col-span-3"
           >
             <p className="text-base leading-relaxed text-gray-600 md:text-lg">
-              With over five years of experience building production systems at
-              scale, I specialize in designing distributed architectures that
-              handle millions of daily requests with rock-solid reliability.
-              From real-time data pipelines to enterprise SaaS platforms, I
-              bring a passion for clean code, operational excellence, and
-              measurable impact.
+              I have 5+ years of experience building production-grade products
+              across fintech, industrial analytics, and CRM platforms. My work
+              spans React and Next.js frontends, Java Spring Boot microservices,
+              and event-driven data systems that process billions of events
+              daily. I focus on clean architecture, measurable performance
+              gains, and dependable delivery in Agile teams.
             </p>
 
             <div className="grid gap-4 sm:grid-cols-3">

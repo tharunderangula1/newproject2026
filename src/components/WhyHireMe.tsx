@@ -6,36 +6,36 @@ const valueProps = [
   {
     number: "01",
     title: "PROVEN_SCALE",
-    headline: "5M+ API Requests/Day",
+    headline: "2B+ Events/Day",
     description:
-      "I've built and maintained systems that handle massive traffic with 99.9% uptime. Not theoretical — production-proven at enterprise scale.",
+      "Built event-driven CRM data pipelines with Kafka, Lambda, and Elasticsearch that run at massive scale with 99.9% uptime.",
     color: "bg-electric",
     textColor: "text-white",
   },
   {
     number: "02",
-    title: "COST_IMPACT",
-    headline: "$150K+ Annual Savings",
+    title: "SYSTEM_IMPACT",
+    headline: "200M+ Profiles Managed",
     description:
-      "I don't just write code — I optimize infrastructure, right-size resources, and eliminate waste. Every dollar saved is engineering ROI.",
+      "Designed and delivered Java microservices powering Smart CRM contact workflows with lower latency and stronger reliability.",
     color: "bg-yellow",
     textColor: "text-black",
   },
   {
     number: "03",
-    title: "FULL_OWNERSHIP",
-    headline: "End-to-End Delivery",
+    title: "DELIVERY_VELOCITY",
+    headline: "3x Deploy Frequency",
     description:
-      "From system design to deployment to monitoring — I own the full lifecycle. Database schemas, API design, React UIs, CI/CD pipelines, observability.",
+      "Modernized release pipelines with GitHub Actions, Docker, and Kubernetes, reducing deployment time and rollback risk.",
     color: "bg-lime",
     textColor: "text-black",
   },
   {
     number: "04",
-    title: "TEAM_MULTIPLIER",
-    headline: "I Make Teams Better",
+    title: "AI_AUTOMATION",
+    headline: "50% Tier-1 Workflow Automation",
     description:
-      "Mentored junior engineers, led code reviews, accelerated release cycles by 50%. I raise the bar for everyone around me.",
+      "Integrated LLM-powered agents using OpenAI APIs to automate support workflows while keeping engineering quality high.",
     color: "bg-hot-pink",
     textColor: "text-white",
   },
@@ -67,7 +67,7 @@ export default function WhyHireMe() {
             WHAT_YOU_GET
           </h2>
           <p className="mt-3 font-mono text-sm font-bold text-electric">
-            // what I bring to the table
+            {"// what I bring to the table"}
           </p>
         </motion.div>
 
@@ -117,7 +117,7 @@ export default function WhyHireMe() {
                 Ready to build something great?
               </h3>
               <p className="mt-1 font-body text-sm text-white/60">
-                5+ years of shipping production systems. Zero hand-holding required.
+                5+ years of shipping production systems across full stack, cloud, and AI workflows.
               </p>
             </div>
             <a

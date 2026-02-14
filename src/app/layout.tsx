@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tharun Derangula | Senior Full Stack Engineer",
-  description: "Full-stack Software Engineer | Portfolio",
+  title: "Tharun Derangula | Software Engineer (Full Stack | AI/ML)",
+  description:
+    "Portfolio of Tharun Derangula: full-stack engineering, distributed systems, and AI-powered product development.",
 };
 
 export default function RootLayout({

@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { HiChevronDown, HiLocationMarker } from "react-icons/hi";
 import profilePic from "@/images/profile-pic.png";
+import { personal } from "@/lib/data";
 
 const container = {
   hidden: {},
@@ -69,7 +70,7 @@ export default function Hero() {
             >
               <Image
                 src={profilePic}
-                alt="Tharun Derangula"
+                alt={personal.name}
                 fill
                 priority
                 className="object-cover"
@@ -122,16 +123,16 @@ export default function Hero() {
           {/* Subtitle + Location */}
           <motion.div variants={item} className="mt-6 flex flex-wrap items-center gap-3">
             <span className="neo-border-2 bg-yellow px-4 py-2 font-display text-base font-bold text-black neo-shadow-sm">
-              Senior Full Stack Engineer
+              {personal.title}
             </span>
             <span className="neo-border-2 bg-white px-4 py-2 font-mono text-sm text-black neo-shadow-sm">
-              @ HubSpot
+              @ {personal.company}
             </span>
           </motion.div>
 
           <motion.div variants={item} className="mt-3 flex items-center gap-1.5 text-gray-500">
             <HiLocationMarker className="text-electric" size={16} />
-            <span className="font-mono text-sm">San Francisco Bay Area, California</span>
+            <span className="font-mono text-sm">{personal.location}</span>
           </motion.div>
 
           {/* Tagline */}
@@ -139,9 +140,7 @@ export default function Hero() {
             variants={item}
             className="mt-6 max-w-xl font-body text-base leading-relaxed text-gray-600 md:text-lg"
           >
-            I architect high-scale distributed systems and craft pixel-perfect
-            interfaces — bridging backend resilience with frontend finesse to ship
-            products that millions rely on daily.
+            {personal.tagline}
           </motion.p>
 
           {/* CTAs */}
