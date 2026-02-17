@@ -76,7 +76,7 @@ export const navItems: NavItem[] = [
 export const socialLinks: SocialLink[] = [
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/dtharun/",
+    href: "https://www.linkedin.com/in/tderangula",
     icon: FaLinkedinIn,
   },
   {
