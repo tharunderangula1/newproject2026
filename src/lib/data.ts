@@ -51,7 +51,7 @@ export interface Stat {
 
 export const personal = {
   name: "Tharun Derangula",
-  title: "Software Engineer (Full Stack | AI/ML)",
+  title: "Senior Software Engineer (Full Stack | AI/ML)",
   company: "HubSpot",
   location: "San Francisco Bay Area, California",
   email: "tderangula1@gmail.com",
@@ -95,19 +95,19 @@ export const socialLinks: SocialLink[] = [
 
 export const experiences: Experience[] = [
   {
-    role: "Software Engineer",
+    role: "Senior Software Engineer",
     company: "HubSpot",
     location: "USA",
     period: "Jan 2024 – Present",
     achievements: [
       "Led architecture and development of HubSpot's Smart CRM pipeline experience using React, TypeScript, and GraphQL, improving sales productivity by 30%",
-      "Built and optimized REST and GraphQL APIs for a shared micro-frontend ecosystem, reducing peak response time from 320ms to 85ms using Redis caching and connection pooling",
+      "Built and optimized REST and GraphQL APIs for HubSpot's micro-frontend ecosystem used by 400+ frontend engineers, reducing peak response time from 320ms to 85ms with Redis caching and connection pooling",
       "Architected 12 Java Spring Boot microservices with Kafka and PostgreSQL for contact management, handling 200M+ buyer and company profiles and reducing enrichment latency by 45%",
       "Designed an event-driven ingestion pipeline using Kafka, AWS Lambda, and Elasticsearch to process 2B+ CRM events per day with 99.9% uptime",
-      "Migrated 8 legacy monolith services to cloud-native microservices on AWS ECS and Kubernetes with Terraform and Docker, cutting deployment time from 4 hours to 18 minutes",
+      "Migrated 8 legacy monolith services to cloud-native microservices on AWS ECS and Kubernetes with Terraform and Docker, cutting deployment time from 4 hours to 18 minutes and lowering infrastructure costs by 35%",
       "Built CI/CD pipelines with GitHub Actions, Docker, and Kubernetes, increasing deployment frequency by 3x and reducing rollback incidents by 60%",
       "Integrated LLM-powered AI agents into CRM workflows using Java, Python, OpenAI APIs, and AWS SQS to automate 50% of tier-1 support workflows",
-      "Mentored 6 junior engineers and established TDD practices with JUnit and React Testing Library, increasing coverage from 52% to 89% and reducing production defects by 40%",
+      "Mentored junior engineers and established TDD practices with JUnit and React Testing Library, increasing coverage from 52% to 89% and reducing production defects by 40%",
     ],
     tech: [
       "Java",
@@ -134,13 +134,13 @@ export const experiences: Experience[] = [
     location: "India",
     period: "Aug 2021 – Dec 2022",
     achievements: [
-      "Developed enterprise applications with Java Spring Boot and Angular, delivering real-time analytics dashboards for 100K+ daily active users",
-      "Built high-performance REST APIs with Spring Boot and Hibernate, processing 10M+ records per day from SQL Server with 99.8% uptime",
-      "Designed responsive Angular and RxJS dashboards, reducing data load times by 50% through lazy loading and API optimization",
-      "Engineered Java microservices to automate ETL workflows, processing 5TB+ monthly data volume and reducing manual effort by 65%",
-      "Implemented CI/CD with Jenkins and Maven, containerized services using Docker, and deployed to Azure to reduce deployment time by 70%",
-      "Optimized query performance with indexing and Redis caching, improving throughput by 45% and reducing infrastructure cost by $80K annually",
-      "Collaborated in Agile/Scrum delivery, conducted code reviews, and maintained 90%+ test coverage with JUnit and Jasmine",
+      "Architected and developed enterprise-grade web applications with Java Spring Boot and Angular, delivering real-time analytics platforms for 150K+ daily active users",
+      "Designed and optimized REST microservices with Spring Boot and Hibernate, processing 10M+ records daily from SQL Server with 99.7% uptime and sub-200ms latency",
+      "Built high-performance Angular and RxJS dashboards with lazy loading and optimized API integration, reducing frontend data load time by 40%",
+      "Engineered scalable data integration services with Java Spring Boot, automating ETL workflows for 5TB+ monthly data volume and reducing manual effort by 60%",
+      "Implemented cloud-native CI/CD pipelines with Jenkins and Maven, containerized services using Docker, and deployed to Azure, cutting deployment time by 71%",
+      "Improved performance through query optimization, indexing, and Redis caching, increasing throughput by 40% and reducing infrastructure costs by $85K annually",
+      "Strengthened code quality with JUnit and Jasmine coverage above 90%, code reviews, and consistent Agile/Scrum delivery",
     ],
     tech: [
       "Java",
@@ -165,14 +165,14 @@ export const experiences: Experience[] = [
     location: "India",
     period: "Jan 2020 – Aug 2021",
     achievements: [
-      "Developed and maintained full-stack applications with Java Spring Boot and React for banking and e-commerce clients serving 50K+ users with 99.5% uptime",
-      "Built REST APIs with Spring MVC and integrated MySQL and PostgreSQL data layers for client-facing business workflows",
-      "Implemented responsive React UI components in close collaboration with UX teams, improving user engagement by 30%",
-      "Developed authentication and authorization modules using Spring Security and JWT for secure enterprise access control",
-      "Delivered 85%+ test coverage using JUnit and Mockito with consistent integration test automation",
-      "Reduced production defects by 40% through stronger testing practices and structured code reviews",
-      "Participated in Agile/Scrum planning and delivery cycles, using JIRA for task tracking and predictable sprint execution",
-      "Supported CI/CD setup with Jenkins and Docker to automate builds and streamline deployments",
+      "Architected and delivered full-stack web applications with Java Spring Boot and React for banking and e-commerce platforms serving 75K+ active users with 99.7% uptime",
+      "Designed and optimized REST microservices with Spring Boot and Spring MVC, integrating MySQL and PostgreSQL to process 8M+ transactions monthly",
+      "Built scalable React components in collaboration with UX teams, increasing user engagement by 35%",
+      "Implemented secure authentication and authorization with Spring Security and JWT, enforcing role-based access control for financial applications",
+      "Improved reliability with JUnit and Mockito unit and integration tests, increasing automated coverage to 90%+ and reducing production defects by 45%",
+      "Contributed to cloud-native deployments on GCP, containerizing services with Docker and supporting automated release pipelines that reduced deployment effort by 60%",
+      "Optimized MySQL and PostgreSQL queries and indexing, improving backend response times by 30% under peak load",
+      "Collaborated in Agile/Scrum teams to deliver sprint commitments consistently, with active code reviews and API design improvements",
     ],
     tech: [
       "Java",
@@ -182,7 +182,7 @@ export const experiences: Experience[] = [
       "MySQL",
       "PostgreSQL",
       "Docker",
-      "AWS",
+      "GCP",
       "Git",
       "Jenkins",
       "JUnit",
@@ -292,7 +292,7 @@ export const education: Education[] = [
 // ─── Certifications ──────────────────────────────────────
 
 export const certifications: Certification[] = [
-  { name: "AWS Cloud Practitioner", issuer: "Amazon Web Services" },
+  { name: "AWS Solutions Architect", issuer: "Amazon Web Services" },
   { name: "Databricks Generative AI Fundamentals", issuer: "Databricks" },
   { name: "Meta Full-Stack Developer Professional", issuer: "Meta" },
   {
@@ -307,5 +307,5 @@ export const stats: Stat[] = [
   { value: 5, suffix: "+", label: "Years Experience" },
   { value: 2, suffix: "B+", label: "CRM Events / Day" },
   { value: 200, suffix: "M+", label: "Profiles Managed" },
-  { value: 3, suffix: "x", label: "Deploy Frequency" },
+  { value: 400, suffix: "+", label: "Frontend Engineers Supported" },
 ];
